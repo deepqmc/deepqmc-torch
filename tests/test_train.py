@@ -114,7 +114,6 @@ def test_invariance_to_subbatch_size(tmp_path):
 
 
 def test_reproducibility():
-
     mol = Molecule.from_name('LiH')
     net = PauliNet.from_hf(mol, cas=(4, 2), conf_limit=2)
     state = copy.deepcopy(net.state_dict())
