@@ -16,6 +16,9 @@ DeepQMC implements variational quantum Monte Carlo for electrons in molecules, u
 - PauliNet: https://doi.org/ghcm5p
 - DeepErwin: http://arxiv.org/abs/2105.08351
 
+> **Warning**
+> This version of the deepqmc package is no longer actively developed. For the latest version visit [deepqmc](https://github.com/deepqmc/deepqmc).
+
 ## Installing
 
 Install and update using [Pip](https://pip.pypa.io/en/stable/quickstart/).
